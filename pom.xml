@@ -40,21 +40,6 @@
             <artifactId>maven-core</artifactId>
             <version>3.6.3</version>
         </dependency>
-
-        <!-- https://mvnrepository.com/artifact/org.apache.maven.shared/maven-verifier -->
-        <dependency>
-            <groupId>org.apache.maven.shared</groupId>
-            <artifactId>maven-verifier</artifactId>
-            <version>1.7.0</version>
-            <scope>test</scope>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter -->
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-            <version>5.6.1</version>
-            <scope>test</scope>
-        </dependency>
     </dependencies>
 
     <build>
@@ -67,11 +52,6 @@
                     <source>1.8</source>
                     <target>1.8</target>
                 </configuration>
-            </plugin>
-            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
-            <plugin>
-                <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.22.2</version>
             </plugin>
         </plugins>
     </build>
