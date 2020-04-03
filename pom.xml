@@ -11,6 +11,8 @@
 
     <name>Variable Search Replace Maven Plugin</name>
     <description>Maven Plugin to create variables based on other replaced text/variables.</description>
+    <inceptionYear>2020</inceptionYear>
+    <url>https://github.com/1tchy/variable-search-replace-plugin</url>
     <licenses>
         <license>
             <name>The Unlicense</name>
@@ -53,6 +55,41 @@
                     <target>1.8</target>
                 </configuration>
             </plugin>
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-plugin-plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-plugin-plugin</artifactId>
+                <version>3.6.0</version>
+            </plugin>
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-site-plugin -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-site-plugin</artifactId>
+                <version>3.9.0</version>
+            </plugin>
         </plugins>
     </build>
+
+    <developers>
+        <developer>
+            <name>Laurin Murer</name>
+            <url>https://laurinmurer.ch/</url>
+        </developer>
+    </developers>
+    <organization>
+        <name>none</name>
+    </organization>
+
+    <issueManagement>
+        <url>https://github.com/1tchy/variable-search-replace-plugin/issues</url>
+    </issueManagement>
+    <scm>
+        <connection>scm:git:git://github.com/1tchy/variable-search-replace-plugin.git</connection>
+        <developerConnection>scm:git:ssh://github.com/1tchy/variable-search-replace-plugin.git</developerConnection>
+        <url>http://github.com/1tchy/variable-search-replace-plugin/tree/master</url>
+        <tag>HEAD</tag>
+    </scm>
+
+    <prerequisites/>
+
 </project>
