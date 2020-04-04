@@ -76,9 +76,6 @@
             <url>https://laurinmurer.ch/</url>
         </developer>
     </developers>
-    <organization>
-        <name>none</name>
-    </organization>
 
     <issueManagement>
         <url>https://github.com/1tchy/variable-search-replace-plugin/issues</url>
@@ -90,6 +87,15 @@
         <tag>HEAD</tag>
     </scm>
 
-    <prerequisites/>
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+        <repository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+        </repository>
+    </distributionManagement>
 
 </project>
