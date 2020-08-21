@@ -31,6 +31,7 @@ public class VariableSearchReplaceMojo extends AbstractMojo {
     }
 
     private String getReplacedText() throws MojoFailureException {
+        String replacement = this.replacement == null ? "" : this.replacement;
         try {
             return text.replaceAll(search, replacement);
         } catch (PatternSyntaxException e) {
