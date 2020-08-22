@@ -11,7 +11,7 @@ Creating a new variable:
         <plugin>
             <groupId>io.github.1tchy</groupId>
             <artifactId>variable-search-replace-plugin</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>enter latest version (e.g. see https://search.maven.org/artifact/io.github.1tchy/variable-search-replace-plugin)</version>
             <executions>
                 <execution>
                     <goals>
