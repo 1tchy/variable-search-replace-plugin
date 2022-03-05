@@ -4,7 +4,7 @@
 
     <groupId>io.github.1tchy</groupId>
     <artifactId>variable-search-replace-plugin</artifactId>
-    <version>1.2-SNAPSHOT</version>
+    <version>1.2</version>
     <packaging>maven-plugin</packaging>
 
     <name>Variable Search Replace Maven Plugin</name>
@@ -124,7 +124,7 @@
         <connection>scm:git:git://github.com/1tchy/variable-search-replace-plugin.git</connection>
         <developerConnection>scm:git:ssh://github.com/1tchy/variable-search-replace-plugin.git</developerConnection>
         <url>http://github.com/1tchy/variable-search-replace-plugin/tree/master</url>
-        <tag>HEAD</tag>
+        <tag>variable-search-replace-plugin-1.2</tag>
     </scm>
 
     <distributionManagement>
