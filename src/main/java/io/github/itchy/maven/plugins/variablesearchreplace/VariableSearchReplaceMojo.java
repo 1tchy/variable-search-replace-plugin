@@ -10,7 +10,7 @@ import java.util.regex.PatternSyntaxException;
 
 import static org.apache.maven.plugins.annotations.LifecyclePhase.INITIALIZE;
 
-@Mojo(name = "replace", defaultPhase = INITIALIZE)
+@Mojo(name = "replace", defaultPhase = INITIALIZE, threadSafe = true)
 public class VariableSearchReplaceMojo extends AbstractMojo {
 
     @Parameter(property = "text", required = true)
